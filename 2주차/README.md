@@ -6,14 +6,14 @@
 - 카이사르 암호는 치환 암호의 일종으로 평문을 구성하는 각 알파벳을 일정한 수만큼 뒤로 미루거나 앞으로 당겨서 다른 알파벳으로 바꾸는 방식이다. 이 밀어내는 칸 수가 암호를 풀 수 있는 Key가 된다
 ## 3. 예시
 - 평문 : `HELLO`
-- 이동 과정: `H → K`, `E → H`, `L → O`, `L → O`, `O → R`
+- 이동 과정 : `H → K`, `E → H`, `L → O`, `L → O`, `O → R`
 - 암호문 : `KHOOR`
 # 단순 치환 암호
 ## 1. 정의
 - 평문의 각 알파벳을 규칙 없이 완전히 다른 알파벳으로 1:1 대응시켜 바꾸는 암호화 방식
 ## 2. 작동 원리
 - 알파벳 A부터 Z까지에 대해 무작위로 섞인 26개의 새로운 알파벳 배열을 Key로 사용
-
-표준 알파벳: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-
-암호화 키(예시): Q W E R T Y U I O P A S D F G H J K L Z X C V B N M
+  - 표준 알파벳: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+  - 암호화 키(예시): Q W E R T Y U I O P A S D F G H J K L Z X C V B N M
+  - 이동 과정 : `H → I`, `E → T`, `L → S`, `L → S`, `O → G`
+  - 암호문 : `ITSSG`
